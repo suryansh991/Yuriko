@@ -482,10 +482,10 @@ def yurikorobot_about_callback(update, context):
             f"\n*SETUP ASSISTANT*"
             f"\n\n✗ `1.) first, add me to your group.`"
             f"\n\n✗ `2.) then promote me as admin and give all permissions except anonymous admin.`"
-            f"\n\n✗ `3.) add` @YurikoPlugin `to your group:`"
+            f"\n\n✗ `3.) add` @Suryansh_Pandit1 `to your group:`"
             f"\n\n✗ `4.) turn on the video chat first before start to play music.`"
-            f"\n\n✗ *Lets Enjoy The Yuriko Music And Join Support Group @DeCodeSupport*"
-            f"\n\n*✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Tᴇᴀᴍ DᴇCᴏᴅᴇ!*",
+            f"\n\n✗ *Lets Enjoy The Yuriko Music And Join Support Group @DarkestMarket666*"
+            f"\n\n*✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ:  @DarkestXmarket!*",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -496,7 +496,7 @@ def yurikorobot_about_callback(update, context):
         query.message.edit_text(
             text=f"*Let's Make Your Group Bit Effective Now*"
             
-            f"\n✗ `Congragulations, YurikoRobot now ready to manage your group.`"
+            f"\n✗ `Congragulations, Dark Controller now ready to manage your group.`"
             f"\n\n*Admin Tools*"
             f"\n✗ `Basic Admin tools help you to protect and powerup your group.`"
             f"\n✗ `You can ban members, Kick members, Promote someone as admin through commands of bot.`"
@@ -518,12 +518,12 @@ def yurikorobot_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Lᴏɢ'ꜱ", url="t.me/YurikoLogs"),
-                    InlineKeyboardButton(text="Nᴇᴡꜱ", url="t.me/Deecodenews"),
+                    InlineKeyboardButton(text="Lᴏɢ'ꜱ", url="t.me/DarkestMarket666"),
+                    InlineKeyboardButton(text="Nᴇᴡꜱ", url="t.me/DarkestXmarket666"),
                  ],
                  [
-                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/Decodesupport"),
-                    InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/deecodebots"),
+                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/DarkestMarket666"),
+                    InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/DarkestXmarket666"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="yurikorobot_basichelp"),
@@ -541,7 +541,7 @@ def yurikorobot_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="BʀᴀʏDᴇɴ", url="t.me/BrayDenXD"),
+                    InlineKeyboardButton(text="Suryansh", url="t.me/Suryansh_Pandit1"),
                     InlineKeyboardButton(text="Bʟᴀᴢᴇ", url="t.me/piroXpower"),
                  ],
                  [
@@ -563,7 +563,7 @@ def Source_about_callback(update, context):
     if query.data == "source_":
         query.message.edit_text(
             text=""" Hi..😻 I'm *yurikorobot*
-                 \nHere is the [🔥Source Code🔥](https://github.com/TeamDeeCode) .""",
+                 \nHere is the [🔥Source Code🔥](Its not an Open source project) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
