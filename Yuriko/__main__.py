@@ -563,7 +563,7 @@ def Source_about_callback(update, context):
     if query.data == "source_":
         query.message.edit_text(
             text=""" Hi..😻 I'm *yurikorobot*
-                 \nHere is the [🔥Source Code🔥](Its not an Open source project) .""",
+                 \nHere is the [🔥Source Code🔥](https://github.com/suryansh991/Yuriko) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
