@@ -92,7 +92,6 @@ PM_START_TEXT = """
 ────────────────────────
 U may join the group 
 My god- @Suryansh_Pandit1
-✗ *Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Darkest Market!*
 """
 
 buttons = [
